@@ -125,8 +125,3 @@ if __name__=="__main__":
     print("dfs_all")
     g2.dfs_all()
     print()
-
-                
-        
-
-            
