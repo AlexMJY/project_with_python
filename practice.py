@@ -1,22 +1,12 @@
-a, b = 41, "7"
+# # from django.http import HttpResponse
 
-try:
-    c = a // b
-    d = a % b
-    print(f'c = {c}, d = {d}')
+# # def my_view(request):
+# #     if request.moethd = 'GET':
+# #         return HttpResponse('reuslt')
     
-except Exception as e:
-    print("exception")
-    
-a = [3,4,7,9,'12',13,15]
-b = 41
-try:
-    for i in a:
-        c = b // i
-        print(f'c = {c}')
-except Exception as e:
-    print(f'exception, e = {e}')
-    print(f'i = {i}')
-    
-    
-    
+# from django.http import HttpResponse
+# from django.views import View
+
+# class MyView(View):
+#     def get(self, request):
+#         return 
